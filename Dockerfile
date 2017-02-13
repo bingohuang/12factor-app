@@ -17,8 +17,8 @@ WORKDIR /app
 COPY . /app
 
 # Expose API port to the outside
-ENV PORT 1377
-EXPOSE 1377
+ENV PORT 1337
+EXPOSE 1337
 
 # Launch application
 CMD ["npm","start"]
