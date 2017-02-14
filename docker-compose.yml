@@ -15,6 +15,6 @@ services:
     depends_on:
       - mongo
     environment:
-      - MONGO_URL=mongodb://mongo/messageApp
+      - MONGO_URL=mongodb://mongo/12factor-app
 volumes:
   mongo-data:

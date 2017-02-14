@@ -38,7 +38,7 @@ function docker-run() {
         version="latest"
     fi
     docker run -d \
-    --publish=1377:1377 \
+    --publish=1337:1337 \
     -e MONGO_URL=mongodb://mongo/12factor-app \
     --link=mongo \
     --name=12factor-app \
