@@ -7,7 +7,7 @@ services:
     ports:
       - "27017:27017"
   app:
-    image: hub.c.163.com/bingohuang/12factor-app:1.0
+    image: hub.c.163.com/bingohuang/12factor-app:latest
     ports:
       - "1337:1337"
     links:
